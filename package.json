@@ -1,0 +1,21 @@
+{
+  "name": "enzyme-problem",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "test": "mocha --require react-native-mock/mock.js --compilers js:babel-core/register --recursive test/*.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-preset-react-native": "^1.9.0",
+    "chai": "^3.5.0",
+    "enzyme": "^2.3.0",
+    "jsdom": "^9.2.1",
+    "mocha": "^2.5.3",
+    "react": "^15.1.0",
+    "react-addons-test-utils": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-native-mock": "^0.2.3"
+  }
+}
